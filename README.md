@@ -1,0 +1,2 @@
+# factorial-of-recursion-example
+# factorial of given number def factorial (n):     if n ==0: # Base Case        return 1     else:         return n * factorial (n-1) # Recursive call  num = eval(input("Enter a name to find factorial: ")) if (num >= 0):     fact = factorial (n) # calling the function     print("factorial of", n, "is", fact) else:     print("factorial is only for possitive number")     
